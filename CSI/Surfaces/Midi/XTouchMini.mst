@@ -1,0 +1,333 @@
+// X-Touch Mini
+// Ensure X-Touch Mini is configured in "standard" mode
+//
+// Layout:
+// Layer A
+//   Rotary Buttons (EN 1-8 Push)
+//   Rotary Knobs   (EN 1-8 Turn)
+//   Upper Buttons  (BT 1-8)
+//   Lower Buttons  (BT 9-16)
+//   Master Fader   (FD 1)
+//
+// Layer B
+//   Rotary Buttons (EN 1-8 Push)
+//   Rotary Knobs   (EN 1-8 Turn)
+//   Upper Buttons  (BT 1-8)
+//   Lower Buttons  (BT 9-16)
+//   Master Fader   (FD 1)
+//
+
+
+Widget LayerA_RotaryPush1
+	Press 9a 00 7f 8a 00 00
+WidgetEnd
+	
+Widget LayerA_RotaryPush2
+	Press 9a 01 7f 8a 01 00
+WidgetEnd
+
+Widget LayerA_RotaryPush3
+	Press 9a 02 7f 8a 02 00
+WidgetEnd
+
+Widget LayerA_RotaryPush4
+	Press 9a 03 7f 8a 03 00
+WidgetEnd
+
+Widget LayerA_RotaryPush5
+	Press 9a 04 7f 8a 04 00
+WidgetEnd
+
+Widget LayerA_RotaryPush6
+	Press 9a 05 7f 8a 05 00
+WidgetEnd
+
+Widget LayerA_RotaryPush7
+	Press 9a 06 7f 8a 06 00
+WidgetEnd
+
+Widget LayerA_RotaryPush8
+	Press 9a 07 7f 8a 07 00
+WidgetEnd
+
+Widget LayerA_Rotary1
+	Fader7Bit ba 01 7f
+	FB_Fader7Bit ba 01 7e
+WidgetEnd
+
+Widget LayerA_Rotary2
+	Fader7Bit ba 02 7f
+	FB_Fader7Bit ba 02 7f
+WidgetEnd
+
+Widget LayerA_Rotary3
+	Fader7Bit ba 03 7f
+	FB_Fader7Bit ba 03 7f
+WidgetEnd
+
+Widget LayerA_Rotary4
+	Fader7Bit ba 04 7f
+	FB_Fader7Bit ba 04 7f
+WidgetEnd
+
+Widget LayerA_Rotary5
+	Fader7Bit ba 05 7f
+	FB_Fader7Bit ba 05 7f
+WidgetEnd
+
+Widget LayerA_Rotary6
+	Fader7Bit ba 06 7f
+	FB_Fader7Bit ba 06 7f
+WidgetEnd
+
+Widget LayerA_Rotary7
+	Fader7Bit ba 07 7f
+	FB_Fader7Bit ba 07 7f
+WidgetEnd
+
+Widget LayerA_Rotary8
+	Fader7Bit ba 08 7f
+	FB_Fader7Bit ba 08 7f
+WidgetEnd
+
+Widget LayerA_UpperButton1
+	Press 9a 08 7f 8a 08 00
+	FB_TwoState 9a 08 7f 8a 08 00 0.5
+WidgetEnd
+
+Widget LayerA_UpperButton2
+	Press 9a 09 7f 8a 09 00
+	FB_TwoState 9a 09 7f 8a 09 00 0.5
+ WidgetEnd
+
+Widget LayerA_UpperButton3
+	Press 9a 0a 7f 8a 0a 00
+	FB_TwoState 9a 0a 7f 8a 0a 00 0.5
+WidgetEnd
+
+Widget LayerA_UpperButton4
+	Press 9a 0b 7f 8a 0b 00
+	FB_TwoState 9a 0b 7f 8a 0b 00 0.5
+WidgetEnd
+
+Widget LayerA_UpperButton5
+	Press 9a 0c 7f 8a 0c 00
+	FB_TwoState 9a 0c 7f 8a 0c 00 0.5
+WidgetEnd
+
+Widget LayerA_UpperButton6
+	Press 9a 0d 7f 8a 0d 00
+	FB_TwoState 9a 0d 7f 8a 0d 00 0.5
+WidgetEnd
+
+Widget LayerA_UpperButton7
+	Press 9a 0e 7f 8a 0e 00
+	FB_TwoState 9a 0e 7f 8a 0e 00 0.5
+WidgetEnd
+
+Widget LayerA_UpperButton8
+	Press 9a 0f 7f 8a 0f 00
+	FB_TwoState 9a 0f 7f 8a 0f 00 0.5
+WidgetEnd
+
+Widget LayerA_LowerButton1
+	Press 9a 10 7f 8a 10 00
+	FB_TwoState 9a 0f 7f 8a 10 00 0.5
+WidgetEnd
+
+Widget LayerA_LowerButton2
+	Press 9a 11 7f 8a 11 00
+	FB_TwoState 9a 0f 7f 8a 11 00 0.5
+WidgetEnd
+
+Widget LayerA_LowerButton3
+	Press 9a 12 7f 8a 12 00
+	FB_TwoState 9a 12 7f 8a 12 00 0.5
+WidgetEnd
+
+Widget LayerA_LowerButton4
+	Press 9a 13 7f 8a 13 00
+	FB_TwoState 9a 13 7f 8a 13 00 0.5
+WidgetEnd
+
+Widget LayerA_LowerButton5
+	Press 9a 14 7f 8a 14 00
+	FB_TwoState 9a 14 7f 8a 14 00 0.5
+WidgetEnd
+
+Widget LayerA_LowerButton6
+	Press 9a 15 7f 8a 15 00
+	FB_TwoState 9a 15 7f 8a 15 00 0.5
+WidgetEnd
+
+Widget LayerA_LowerButton7
+	Press 9a 16 7f 8a 16 00
+	FB_TwoState 9a 16 7f 8a 16 00 0.5
+WidgetEnd
+
+Widget LayerA_LowerButton8
+	Press 9a 17 7f 8a 17 00
+	FB_TwoState 9a 17 7f 8a 17 00 0.5
+WidgetEnd
+
+Widget LayerA_Fader
+	Fader7Bit ba 09 7f
+WidgetEnd
+
+//################################################
+
+Widget LayerB_RotaryPush1
+	Press 9a 18 7f 8a 18 00
+WidgetEnd
+	
+Widget LayerB_RotaryPush2
+	Press 9a 19 7f 8a 19 00
+WidgetEnd
+
+Widget LayerB_RotaryPush3
+	Press 9a 1a 7f 8a 1a 00
+WidgetEnd
+
+Widget LayerB_RotaryPush4
+	Press 9a 1b 7f 8a 1b 00
+WidgetEnd
+
+Widget LayerB_RotaryPush5
+	Press 9a 1c 7f 8a 1c 00
+WidgetEnd
+
+Widget LayerB_RotaryPush6
+	Press 9a 1d 7f 8a 1d 00
+WidgetEnd
+
+Widget LayerB_RotaryPush7
+	Press 9a 1e 7f 8a 1e 00
+WidgetEnd
+
+Widget LayerB_RotaryPush8
+	Press 9a 1f 7f 8a 1f 00
+WidgetEnd
+
+Widget LayerB_Rotary1
+	Fader7Bit ba 0b 7f
+	FB_Fader7Bit ba 0b 7f
+WidgetEnd
+
+Widget LayerB_Rotary2
+	Fader7Bit ba 0c 7f
+	FB_Fader7Bit ba 0c 7f
+WidgetEnd
+
+Widget LayerB_Rotary3
+	Fader7Bit ba 0d 7f
+	FB_Fader7Bit ba 0d 7f
+WidgetEnd
+
+Widget LayerB_Rotary4
+	Fader7Bit ba 0e 7f
+	FB_Fader7Bit ba 0e 7f
+WidgetEnd
+
+Widget LayerB_Rotary5
+	Fader7Bit ba 0f 7f
+	FB_Fader7Bit ba 0f 7f
+WidgetEnd
+
+Widget LayerB_Rotary6
+	Fader7Bit ba 10 7f
+	FB_Fader7Bit ba 10 7f
+WidgetEnd
+
+Widget LayerB_Rotary7
+	Fader7Bit ba 11 7f
+	FB_Fader7Bit ba 11 7f
+WidgetEnd
+
+Widget LayerB_Rotary8
+	Fader7Bit ba 12 7f
+	FB_Fader7Bit ba 12 7f
+WidgetEnd
+
+Widget LayerB_UpperButton1
+	Press 9a 20 7f 8a 20 00
+	FB_TwoState 9a 20 7f 8a 20 00 0.5
+WidgetEnd
+
+Widget LayerB_UpperButton2
+	Press 9a 21 7f 8a 21 00
+	FB_TwoState 9a 21 7f 8a 21 00 0.5
+WidgetEnd
+
+Widget LayerB_UpperButton3
+	Press 9a 22 7f 8a 22 00
+	FB_TwoState 9a 22 7f 8a 22 00 0.5
+WidgetEnd
+
+Widget LayerB_UpperButton4
+	Press 9a 23 7f 8a 23 00
+	FB_TwoState 9a 23 7f 8a 23 00 0.5
+WidgetEnd
+
+Widget LayerB_UpperButton5
+	Press 9a 24 7f 8a 24 00
+	FB_TwoState 9a 24 7f 8a 24 00 0.5
+WidgetEnd
+
+Widget LayerB_UpperButton6
+	Press 9a 25 7f 8a 25 00
+	FB_TwoState 9a 25 7f 8a 25 00 0.5
+WidgetEnd
+
+Widget LayerB_UpperButton7
+	Press 9a 26 7f 8a 26 00
+	FB_TwoState 9a 26 7f 8a 26 00 0.5
+WidgetEnd
+
+Widget LayerB_UpperButton8
+	Press 9a 27 7f 8a 27 00
+	FB_TwoState 9a 27 7f 8a 27 00 0.5
+WidgetEnd
+
+Widget LayerB_LowerButton1
+	Press 9a 28 7f 8a 28 00
+	FB_TwoState 9a 28 7f 8a 28 00 0.5
+WidgetEnd
+
+Widget LayerB_LowerButton2
+	Press 9a 29 7f 8a 29 00
+	FB_TwoState 9a 29 7f 8a 29 00 0.5
+WidgetEnd
+
+Widget LayerB_LowerButton3
+	Press 9a 2a 7f 8a 2a 00
+	FB_TwoState 9a 2a 7f 8a 2a 00 0.5
+WidgetEnd
+
+Widget LayerB_LowerButton4
+	Press 9a 2b 7f 8a 2b 00
+	FB_TwoState 9a 2b 7f 8a 2b 00 0.5
+WidgetEnd
+
+Widget LayerB_LowerButton5
+	Press 9a 2c 7f 8a 2c 00
+	FB_TwoState 9a 2c 7f 8a 2c 00 0.5
+WidgetEnd
+
+Widget LayerB_LowerButton6
+	Press 9a 2d 7f 8a 2d 00
+	FB_TwoState 9a 2d 7f 8a 2d 00 0.5
+WidgetEnd
+
+Widget LayerB_LowerButton7
+	Press 9a 2e 7f 8a 2e 00
+	FB_TwoState 9a 2e 7f 8a 2e 00 0.5
+WidgetEnd
+
+Widget LayerB_LowerButton8
+	Press 9a 2f 7f 8a 2f 00
+	FB_TwoState 9a 2f 7f 8a 2f 00 0.5
+WidgetEnd
+
+Widget LayerB_Fader
+	Fader7Bit ba 0a 7f
+WidgetEnd
