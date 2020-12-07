@@ -1,0 +1,193 @@
+// X-Touch Mini
+// MCU Mode (Test)
+//
+// Layout:
+// Layer A
+//   Rotary Buttons (EN 1-8 Push)
+//   Rotary Knobs   (EN 1-8 Turn)
+//   Upper Buttons  (BT 1-8)
+//   Lower Buttons  (BT 9-16)
+//   Master Fader   (FD 1)
+//
+// Layer B
+//   Rotary Buttons (EN 1-8 Push)
+//   Rotary Knobs   (EN 1-8 Turn)
+//   Upper Buttons  (BT 1-8)
+//   Lower Buttons  (BT 9-16)
+//   Master Fader   (FD 1)
+//
+
+
+Widget RotaryPush1
+	Press 90 20 7f 90 20 00
+WidgetEnd
+	
+Widget RotaryPush2
+	Press 90 21 7f 90 21 00
+WidgetEnd
+
+Widget RotaryPush3
+	Press 90 22 7f 90 22 00
+WidgetEnd
+
+Widget RotaryPush4
+	Press 90 23 7f 90 23 00
+WidgetEnd
+
+Widget RotaryPush5
+	Press 90 24 7f 90 24 00
+WidgetEnd
+
+Widget RotaryPush6
+	Press 90 25 7f 90 25 00
+WidgetEnd
+
+Widget RotaryPush7
+	Press 90 26 7f 90 26 00
+WidgetEnd
+
+Widget RotaryPush8
+	Press 90 27 7f 90 27 00
+WidgetEnd
+
+Widget Rotary1
+	Encoder b0 10 01 [ < 41 42 43 44 45 46 > 01 02 03 04 05 06 ]
+	FB_Encoder b0 10 02
+	Toggle 90 20 7f
+WidgetEnd
+
+Widget Rotary2
+	Encoder b0 11 01 [ < 41 42 43 44 45 46 > 01 02 03 04 05 06 ]
+	FB_Encoder b0 11 01
+	Toggle 90 21 7f
+WidgetEnd
+
+Widget Rotary3
+	Encoder b0 12 01 [ < 41 42 43 44 45 46 > 01 02 03 04 05 06 ]
+	FB_Encoder b0 12 01
+	Toggle 90 22 7f
+WidgetEnd
+
+Widget Rotary4
+	Encoder b0 13 01 [ < 41 42 43 44 45 46 > 01 02 03 04 05 06 ]
+	FB_Encoder b0 13 01
+	Toggle 90 23 7f
+WidgetEnd
+
+Widget Rotary5
+	Encoder b0 14 01 [ < 41 42 43 44 45 46 > 01 02 03 04 05 06 ]
+	FB_Encoder b0 14 01
+	Toggle 90 24 7f
+WidgetEnd
+
+Widget Rotary6
+	Encoder b0 15 01 [ < 41 42 43 44 45 46 > 01 02 03 04 05 06 ]
+	FB_Encoder b0 15 01
+	Toggle 90 25 7f
+WidgetEnd
+
+Widget Rotary7
+	Encoder b0 16 01 [ < 41 42 43 44 45 46 > 01 02 03 04 05 06 ]
+	FB_Encoder b0 16 01
+	Toggle 90 26 7f
+WidgetEnd
+
+Widget Rotary8
+	Encoder b0 17 01 [ < 41 42 43 44 45 46 > 01 02 03 04 05 06 ]
+	FB_Encoder b0 17 01
+	Toggle 90 27 7f
+WidgetEnd
+
+Widget UpperButton1
+	Press 90 59 7f 90 59 00
+	FB_TwoState 90 59 7f 90 59 00
+WidgetEnd
+
+Widget UpperButton2
+	Press 90 5a 7f 90 5a 00
+	FB_TwoState 90 5a 7f 90 5a 00
+ WidgetEnd
+
+Widget UpperButton3
+	Press 90 28 7f 90 28 00
+	FB_TwoState 90 28 7f 90 28 00
+WidgetEnd
+
+Widget UpperButton4
+	Press 90 29 7f 90 29 00
+	FB_TwoState 90 29 7f 90 29 00
+WidgetEnd
+
+Widget UpperButton5
+	Press 90 2a 7f 90 2a 00
+	FB_TwoState 90 2a 7f 90 2a 00
+WidgetEnd
+
+Widget UpperButton6
+	Press 90 2b 7f 90 2b 00
+	FB_TwoState 90 2b 7f 90 2b 00
+WidgetEnd
+
+Widget UpperButton7
+	Press 90 2c 7f 90 2c 00
+	FB_TwoState 90 2c 7f 90 2c 00
+WidgetEnd
+
+Widget UpperButton8
+	Press 90 2d 7f 90 2d 00
+	FB_TwoState 90 2d 7f 90 2d 00
+WidgetEnd
+
+Widget LowerButton1
+	Press 90 57 7f 90 57 00
+	FB_TwoState 90 57 7f 90 57 00
+WidgetEnd
+
+Widget LowerButton2
+	Press 90 58 7f 90 58 00
+	FB_TwoState 90 58 7f 90 58 00
+WidgetEnd
+
+Widget LowerButton3
+	Press 90 5b 7f 90 5b 00
+	FB_TwoState 90 5b 7f 90 5b 00
+WidgetEnd
+
+Widget LowerButton4
+	Press 90 5c 7f 90 5c 00
+	FB_TwoState 90 5c 7f 90 5c 00
+WidgetEnd
+
+Widget LowerButton5
+	Press 90 56 7f 90 56 00
+	FB_TwoState 90 56 7f 90 56 00
+WidgetEnd
+
+Widget LowerButton6
+	Press 90 5d 7f 90 5d 00
+	FB_TwoState 90 5d 7f 90 5d 00
+WidgetEnd
+
+Widget LowerButton7
+	Press 90 5e 7f 90 5e 00
+	FB_TwoState 90 5e 7f 90 5e 00
+WidgetEnd
+
+Widget LowerButton8
+	Press 90 5f 7f 90 5f 00
+	FB_TwoState 90 5f 7f 90 5f 00
+WidgetEnd
+
+Widget Fader
+	Encoder e8 00 7f
+WidgetEnd
+
+Widget ButtonA
+	Press 90 54 7f 90 54 00
+	FB_TwoState 90 54 7f 90 54 00
+WidgetEnd
+
+Widget ButtonB
+	Press 90 55 7f 90 55 00
+	FB_TwoState 90 55 7f 90 55 00
+WidgetEnd

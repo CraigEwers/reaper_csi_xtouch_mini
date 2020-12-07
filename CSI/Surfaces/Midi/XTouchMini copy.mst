@@ -100,7 +100,7 @@ WidgetEnd
 
 Widget LayerA_UpperButton1
 	Press 9a 08 7f 8a 08 00
-	FB_TwoState 9a 08 7f 8a 08 00
+	FB_TwoState 9a 08 7f 8a 08 00 0.5
 WidgetEnd
 
 Widget LayerA_UpperButton2
