@@ -53,41 +53,49 @@ WidgetEnd
 Widget LayerA_Rotary1
 	Fader7Bit ba 01 7f
 	FB_Fader7Bit ba 01 7e
+	Toggle 9a 00 7f
 WidgetEnd
 
 Widget LayerA_Rotary2
 	Fader7Bit ba 02 7f
 	FB_Fader7Bit ba 02 7f
+	Toggle 9a 01 7f
 WidgetEnd
 
 Widget LayerA_Rotary3
 	Fader7Bit ba 03 7f
 	FB_Fader7Bit ba 03 7f
+	Toggle 9a 02 7f
 WidgetEnd
 
 Widget LayerA_Rotary4
 	Fader7Bit ba 04 7f
 	FB_Fader7Bit ba 04 7f
+	Toggle 9a 03 7f
 WidgetEnd
 
 Widget LayerA_Rotary5
 	Fader7Bit ba 05 7f
 	FB_Fader7Bit ba 05 7f
+	Toggle 9a 04 7f
 WidgetEnd
 
 Widget LayerA_Rotary6
 	Fader7Bit ba 06 7f
 	FB_Fader7Bit ba 06 7f
+	Toggle 9a 05 7f
 WidgetEnd
 
 Widget LayerA_Rotary7
 	Fader7Bit ba 07 7f
 	FB_Fader7Bit ba 07 7f
+	Toggle 9a 06 7f
 WidgetEnd
 
 Widget LayerA_Rotary8
 	Fader7Bit ba 08 7f
 	FB_Fader7Bit ba 08 7f
+	Toggle 9a 07 7f
 WidgetEnd
 
 Widget LayerA_UpperButton1
@@ -211,41 +219,49 @@ WidgetEnd
 Widget LayerB_Rotary1
 	Fader7Bit ba 0b 7f
 	FB_Fader7Bit ba 0b 7f
+	Toggle 9a 18 7f
 WidgetEnd
 
 Widget LayerB_Rotary2
 	Fader7Bit ba 0c 7f
 	FB_Fader7Bit ba 0c 7f
+	Toggle 9a 19 7f
 WidgetEnd
 
 Widget LayerB_Rotary3
 	Fader7Bit ba 0d 7f
 	FB_Fader7Bit ba 0d 7f
+	Toggle 9a 1a 7f
 WidgetEnd
 
 Widget LayerB_Rotary4
 	Fader7Bit ba 0e 7f
 	FB_Fader7Bit ba 0e 7f
+	Toggle 9a 1b 7f
 WidgetEnd
 
 Widget LayerB_Rotary5
 	Fader7Bit ba 0f 7f
 	FB_Fader7Bit ba 0f 7f
+	Toggle 9a 1c 7f
 WidgetEnd
 
 Widget LayerB_Rotary6
 	Fader7Bit ba 10 7f
 	FB_Fader7Bit ba 10 7f
+	Toggle 9a 1d 7f
 WidgetEnd
 
 Widget LayerB_Rotary7
 	Fader7Bit ba 11 7f
 	FB_Fader7Bit ba 11 7f
+	Toggle 9a 1e 7f
 WidgetEnd
 
 Widget LayerB_Rotary8
 	Fader7Bit ba 12 7f
 	FB_Fader7Bit ba 12 7f
+	Toggle 9a 1f 7f
 WidgetEnd
 
 Widget LayerB_UpperButton1

@@ -1,16 +1,21 @@
-
 Zone Home
-	OnTrackSelection MapSelectedTrackSendsToWidgets
-	OnFXFocus MapFocusedFXToWidgets
 	IncludedZones
-		"LayerA_Buttons"
-		"Channel"
+		"Channels"
+		"Fixed_Buttons"
 		"MasterChannel"
 	IncludedZonesEnd
 ZoneEnd
 
-Zone "LayerA_Buttons"
+Zone "Channels"
 	TrackNavigator
+	LayerA_Rotary|					TrackVolume
+	LayerA_UpperButton| 			TrackRecordArm
+	LayerB_Rotary| 					MCUTrackPan
+	LayerB_UpperButton| 			TrackMute
+	LayerB_LowerButton| 			TrackSolo
+ZoneEnd
+
+Zone "Fixed_Buttons"
 	LayerA_LowerButton1 			TrackBank "-8" 
 	LayerA_LowerButton2 			TrackBank "8"
 	LayerA_LowerButton3 			Reaper "40172"
@@ -21,30 +26,8 @@ Zone "LayerA_Buttons"
 	LayerA_LowerButton8 			Record
 ZoneEnd
 
-Zone "Channel"
-	TrackNavigator
-	LayerA_Rotary|					TrackVolume
-	LayerA_UpperButton| 			TrackRecordArm
-	LayerB_Rotary| 					TrackPan "0"
-	LayerB_RotaryPush| 				GoZone "PanWidth"
-	LayerB_UpperButton| 			TrackMute
-	LayerB_LowerButton| 			TrackSolo
-ZoneEnd
-
 Zone "MasterChannel"
     MasterTrackNavigator
     LayerA_Fader 					TrackVolume
 	LayerB_Fader 					TrackVolume
-ZoneEnd
-
-Zone "Pan"
-	TrackNavigator
-	LayerB_Rotary| 					TrackPan "0"
-	LayerB_RotaryPush| 				GoZone "PanWidth"
-ZoneEnd
-
-Zone "PanWidth"
-	TrackNavigator
-	LayerB_Rotary| 					TrackPanWidth "1"
-	LayerB_RotaryPush| 				GoZone "Pan"
 ZoneEnd
