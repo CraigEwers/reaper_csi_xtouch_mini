@@ -24,7 +24,6 @@ ZoneEnd
 Zone "Channel"
 	TrackNavigator
 	LayerA_Rotary|					TrackVolume
-	LayerA_RotaryPush|				GoZone "Pan"
 	LayerA_UpperButton| 			TrackRecordArm
 	LayerB_Rotary| 					TrackPan "0"
 	LayerB_RotaryPush| 				GoZone "PanWidth"
@@ -40,28 +39,12 @@ ZoneEnd
 
 Zone "Pan"
 	TrackNavigator
-	LayerA_Rotary| 					TrackPan "0"
 	LayerB_Rotary| 					TrackPan "0"
 	LayerB_RotaryPush| 				GoZone "PanWidth"
-	LayerA_RotaryPush| 				GoZone "Volume"
-ZoneEnd
-
-Zone "Volume"
-	TrackNavigator
-	LayerA_Rotary| 					TrackVolume
-	LayerA_RotaryPush| 				GoZone "Pan"
 ZoneEnd
 
 Zone "PanWidth"
 	TrackNavigator
 	LayerB_Rotary| 					TrackPanWidth "1"
 	LayerB_RotaryPush| 				GoZone "Pan"
-ZoneEnd
-
-Zone "Scroller"
-	TrackNavigator
-	LayerA_Rotary1					Reaper "40221"
-	//LayerA_RotaryPush1 				TrackUniqueSelect 
-	//LayerA_RotaryPush1 				Reaper "_S&M_TOGLFXCHAIN"
-	LayerA_RotaryPush1				GoZone Home
 ZoneEnd
