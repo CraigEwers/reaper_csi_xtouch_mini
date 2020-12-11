@@ -1,12 +1,12 @@
 Zone Home
 	IncludedZones
-		"Channels"
 		"Fixed_Buttons"
+		"Channel"
 		"MasterChannel"
 	IncludedZonesEnd
 ZoneEnd
 
-Zone "Channels"
+Zone "Channel"
 	TrackNavigator
 	Rotary|					TrackVolume
 	Shift+Rotary|			MCUTrackPan
@@ -24,8 +24,8 @@ Zone "Fixed_Buttons"
 	LowerButton6 			Stop
 	LowerButton7 			Play
 	LowerButton8 			Record
-	ButtonA					Shift
-	ButtonB					Option
+	UpperButtonA			Shift
+	LowerButtonB			Option
 ZoneEnd
 
 Zone "MasterChannel"
