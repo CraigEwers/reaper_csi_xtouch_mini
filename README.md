@@ -1,14 +1,14 @@
 # Reaper CSI - X-Touch Mini files
 
-Works with Reaper CSI v1.0 (Dec 4 2020)
+Works with Reaper CSI v1.0 (Dec 10 2020)
 
 These files configure the excellent Reaper CSI add-in to utilise a Behringer X-Touch Mini controller for basic 8 channel live recording/mixing use.
 
-The X-Touch Mini must be configured in "standard" mode (not MCU mode) for this to work properly, I previously have had a poor experience trying to use the MCU mode so found it better to work from the standard baseline.
+The X-Touch Mini must be configured in MC mode (not Standard mode) for this to work properly, I have recently found this gives better support for the rotaries as well as the lights on the buttons so for CSI v1.0 I have completely restarted from scratch.
 
 ## General Operation
 
-### Layer A
+### Normal - No Modifiers
 
 * Rotaries operate as volume controls (currently no action for rotary push)
 * First row of buttons toggle record/arm
@@ -22,33 +22,22 @@ The X-Touch Mini must be configured in "standard" mode (not MCU mode) for this t
   * Play/Pause
   * Record
 * Fader control is Master Fader
+* Button A is "Shift"
+* Button B is "Option"
 
-### Layer B
+### With Shift held/latched
 
-* Rotaries operate as pan/pan width controls (toggled by rotatry push)
+* Rotaries operate as Pan/Pan Width controls (toggled by rotatry push)
 * First row of buttons toggle mute
-* Second row of buttons toggle solo
-* Fader control is Master Fader
+
+### With Option held/latched
+
+* First row of buttons toggle solo
 
 ## X-Touch Mini Configuration (using X-Touch Editor)
 
 * Firmware Version: 1.08
 * Editor Version: 1.21
+* Mode: MC
 * Device ID: ID 1
 * Global Channel: CH 1
-
-From factory default, change the following:
-
-### Layer A
-
-* Set Encoder "LED Ring" to **Fan** for all 8 channels
-  
-### Layer B
-
-* Set Encoder "LED Ring" to **Pan** for all 8 channels
-
-## Known Issues
-
-1 Banking and changing layers - rotaries on the inactive layer are not updated, causing inaccurate display when changing layers
-
-2 Button lights no longer seem to stay lit to indicate status

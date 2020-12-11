@@ -1,33 +1,34 @@
 Zone Home
 	IncludedZones
-		"Channels"
 		"Fixed_Buttons"
+		"Channel"
 		"MasterChannel"
 	IncludedZonesEnd
 ZoneEnd
 
-Zone "Channels"
+Zone "Channel"
 	TrackNavigator
-	LayerA_Rotary|					TrackVolume
-	LayerA_UpperButton| 			TrackRecordArm
-	LayerB_Rotary| 					MCUTrackPan
-	LayerB_UpperButton| 			TrackMute
-	LayerB_LowerButton| 			TrackSolo
+	Rotary|					TrackVolume
+	Shift+Rotary|			MCUTrackPan
+	UpperButton| 			TrackRecordArm
+	Shift+UpperButton| 		TrackMute
+	Option+UpperButton|		TrackSolo
 ZoneEnd
 
 Zone "Fixed_Buttons"
-	LayerA_LowerButton1 			TrackBank "-8" 
-	LayerA_LowerButton2 			TrackBank "8"
-	LayerA_LowerButton3 			Reaper "40172"
-	LayerA_LowerButton4 			Reaper "40173"
-	LayerA_LowerButton5 			CycleTimeline
-	LayerA_LowerButton6 			Stop
-	LayerA_LowerButton7 			Play
-	LayerA_LowerButton8 			Record
+	LowerButton1 			TrackBank "-8" 
+	LowerButton2 			TrackBank "8"
+	LowerButton3 			Reaper "40172"
+	LowerButton4 			Reaper "40173"
+	LowerButton5 			CycleTimeline
+	LowerButton6 			Stop
+	LowerButton7 			Play
+	LowerButton8 			Record
+	UpperButtonA			Shift
+	LowerButtonB			Option
 ZoneEnd
 
 Zone "MasterChannel"
     MasterTrackNavigator
-    LayerA_Fader 					TrackVolume
-	LayerB_Fader 					TrackVolume
+    Fader 					TrackVolume
 ZoneEnd
