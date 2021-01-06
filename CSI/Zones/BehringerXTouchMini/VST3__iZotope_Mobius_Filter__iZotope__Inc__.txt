@@ -1,0 +1,17 @@
+Zone "VST3: iZotope Mobius Filter (iZotope, Inc.)"
+	SelectedTrackNavigator
+	FXParam 0 "Center Frequency"
+	FXParam 1 "Resonance"
+	FXParam 2 "Filter Type"
+	FXParam 3 "Pause"
+	FXParam 4 "Reset Filter Position"
+	FXParam 5 "Direction"
+	FXParam 6 "Host Tempo Sync"
+	FXParam 7 "Speed (Hz)"
+	FXParam 8 "Speed (note value)"
+	FXParam 9 "Mix"
+	FXParam 10 "Stereo"
+	FXParam 11 "Bypass"
+	FXParam 12 "Bypass"
+	FXParam 13 "Wet"
+ZoneEnd

@@ -1,0 +1,5 @@
+Zone "VST3: Tonal Balance Control 2 (iZotope, Inc.)"
+	SelectedTrackNavigator
+	FXParam 0 "Bypass"
+	FXParam 1 "Wet"
+ZoneEnd

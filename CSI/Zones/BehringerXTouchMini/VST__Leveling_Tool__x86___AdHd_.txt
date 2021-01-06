@@ -1,0 +1,16 @@
+Zone "VST: Leveling Tool (x86) (AdHd)"
+	SelectedTrackNavigator
+	FXParam 0 "Gain"
+	FXParam 1 "Peak Reduction"
+	FXParam 2 "VU Mode"
+	FXParam 3 ""
+	FXParam 4 "SC HPF"
+	FXParam 5 ""
+	FXParam 6 "Ratio"
+	FXParam 7 "Dry/Wet"
+	FXParam 8 "Attack"
+	FXParam 9 "Release"
+	FXParam 10 "Drive"
+	FXParam 11 "Bypass"
+	FXParam 12 "Wet"
+ZoneEnd

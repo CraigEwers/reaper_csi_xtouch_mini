@@ -1,0 +1,12 @@
+Zone "VST: Supercharger (Native Instruments GmbH)"
+	SelectedTrackNavigator
+	FXParam 0 "Input Trim"
+	FXParam 1 "Sidechain"
+	FXParam 2 "Compress"
+	FXParam 3 "Punch"
+	FXParam 4 "Dirt"
+	FXParam 5 "Mix"
+	FXParam 6 "Output"
+	FXParam 7 "Bypass"
+	FXParam 8 "Wet"
+ZoneEnd

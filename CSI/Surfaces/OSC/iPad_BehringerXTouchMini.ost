@@ -1,0 +1,236 @@
+////////////////////////////////////////////////////////////////////
+// Behringer X-Touch Mini (OSC)
+//
+// by Craig Ewers
+// 12/12/2020
+//
+// Ensure X-Touch Mini is configured in MC mode
+//
+// Layout:
+//   Rotary Buttons (EN 1-8 Push)
+//   Rotary Knobs   (EN 1-8 Turn)
+//   Upper Buttons  (BT 1-8)
+//   Lower Buttons  (BT 9-16)
+//   Master Fader   (FD 1)
+//   Upper Button A	(Layer A Button)
+//   Lower Button B	(Layer B Button)
+////////////////////////////////////////////////////////////////////
+
+Widget RotaryPush1
+	Control /1/rotarypush1
+	FB_Processor /1/rotarypush1
+WidgetEnd
+	
+Widget RotaryPush2
+	Control /1/rotarypush2
+	FB_Processor /1/rotarypush2
+WidgetEnd
+
+Widget RotaryPush3
+	Control /1/rotarypush3
+	FB_Processor /1/rotarypush3
+WidgetEnd
+
+Widget RotaryPush4
+	Control /1/rotarypush4
+	FB_Processor /1/rotarypush4
+WidgetEnd
+
+Widget RotaryPush5
+	Control /1/rotarypush5
+	FB_Processor /1/rotarypush5
+WidgetEnd
+
+Widget RotaryPush6
+	Control /1/rotarypush6
+	FB_Processor /1/rotarypush6
+WidgetEnd
+
+Widget RotaryPush7
+	Control /1/rotarypush7
+	FB_Processor /1/rotarypush7
+WidgetEnd
+
+Widget RotaryPush8
+	Control /1/rotarypush8
+	FB_Processor /1/rotarypush8
+WidgetEnd
+
+Widget Rotary1
+	Control /1/rotary1
+	FB_Processor /1/rotary1
+	Toggle /1/rotary1
+WidgetEnd
+
+Widget Rotary2
+	Control /1/rotary2
+	FB_Processor /1/rotary2
+	Toggle /1/rotary2
+WidgetEnd
+
+Widget Rotary3
+	Control /1/rotary3
+	FB_Processor /1/rotary3
+	Toggle /1/rotary3
+WidgetEnd
+
+Widget Rotary4
+	Control /1/rotary4
+	FB_Processor /1/rotary4
+	Toggle /1/rotary4
+WidgetEnd
+
+Widget Rotary5
+	Control /1/rotary5
+	FB_Processor /1/rotary5
+	Toggle /1/rotary5
+WidgetEnd
+
+Widget Rotary6
+	Control /1/rotary6
+	FB_Processor /1/rotary6
+	Toggle /1/rotary6
+WidgetEnd
+
+Widget Rotary7
+	Control /1/rotary7
+	FB_Processor /1/rotary7
+	Toggle /1/rotary7
+WidgetEnd
+
+Widget Rotary8
+	Control /1/rotary8
+	FB_Processor /1/rotary8
+	Toggle /1/rotary8
+WidgetEnd
+
+Widget UpperButton1
+	Control /1/button1
+	FB_Processor /1/button1
+WidgetEnd
+
+Widget UpperButton2
+	Control /1/button2
+	FB_Processor /1/button2
+ WidgetEnd
+
+Widget UpperButton3
+	Control /1/button3
+	FB_Processor /1/button3
+WidgetEnd
+
+Widget UpperButton4
+	Control /1/button4
+	FB_Processor /1/button4
+WidgetEnd
+
+Widget UpperButton5
+	Control /1/button5
+	FB_Processor /1/button5
+WidgetEnd
+
+Widget UpperButton6
+	Control /1/button6
+	FB_Processor /1/button6
+WidgetEnd
+
+Widget UpperButton7
+	Control /1/button7
+	FB_Processor /1/button7
+WidgetEnd
+
+Widget UpperButton8
+	Control /1/button8
+	FB_Processor /1/button8
+WidgetEnd
+
+Widget UpperButtonA
+	Control /1/buttonA
+	FB_Processor /1/buttonA
+WidgetEnd
+
+Widget LowerButton1
+	Control /1/button9
+	FB_Processor /1/button9
+WidgetEnd
+
+Widget LowerButton2
+	Control /1/button10
+	FB_Processor /1/button10
+WidgetEnd
+
+Widget LowerButton3
+	Control /1/button11
+	FB_Processor /1/button11
+WidgetEnd
+
+Widget LowerButton4
+	Control /1/button12
+	FB_Processor /1/button12
+WidgetEnd
+
+Widget LowerButton5
+	Control /1/button13
+	FB_Processor /1/button13
+WidgetEnd
+
+Widget LowerButton6
+	Control /1/button14
+	FB_Processor /1/button14
+WidgetEnd
+
+Widget LowerButton7
+	Control /1/button15
+	FB_Processor /1/button15
+WidgetEnd
+
+Widget LowerButton8
+	Control /1/button16
+	FB_Processor /1/button16
+WidgetEnd
+
+Widget LowerButtonB
+	Control /1/buttonB
+	FB_Processor /1/buttonB
+WidgetEnd
+
+Widget Fader
+	Control /1/fader
+	FB_Processor /1/fader
+WidgetEnd
+
+Widget DisplayUpper1
+	FB_Processor /1/display1
+WidgetEnd
+
+Widget DisplayUpper2
+	FB_Processor /1/display2
+WidgetEnd
+
+Widget DisplayUpper3
+	FB_Processor /1/display3
+WidgetEnd
+
+Widget DisplayUpper4
+	FB_Processor /1/display4
+WidgetEnd
+
+Widget DisplayUpper5
+	FB_Processor /1/display5
+WidgetEnd
+
+Widget DisplayUpper6
+	FB_Processor /1/display6
+WidgetEnd
+
+Widget DisplayUpper7
+	FB_Processor /1/display7
+WidgetEnd
+
+Widget DisplayUpper8
+	FB_Processor /1/display8
+WidgetEnd
+
+Widget DisplayLower1
+	FB_Processor /1/lowerdisplay1
+WidgetEnd

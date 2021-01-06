@@ -1,0 +1,9 @@
+Zone "VST: RX 7 Breath Control (iZotope, Inc.)"
+	SelectedTrackNavigator
+	FXParam 0 "Algorithm"
+	FXParam 1 "Gain"
+	FXParam 2 "Sensitivity"
+	FXParam 3 "Global bypass"
+	FXParam 4 "Bypass"
+	FXParam 5 "Wet"
+ZoneEnd

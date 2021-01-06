@@ -1,0 +1,13 @@
+Zone "VST3: SPL Free Ranger (Plugin Alliance)"
+	FocusedFXNavigator
+	Rotary1					FXParam 0 "Band 40"
+	Rotary2					FXParam 1 "Band 150"
+	Rotary3					FXParam 2 "Band 1k8"
+	Rotary4					FXParam 3 "Band 16k"
+	Rotary8					FXParam 4 "Output"
+	UpperButton1			FXParam 5 "Preset" [ 0.0 0.34 0.67 1.0 ]
+	UpperButton2			FXParam 6 "Power" [ 0.0 1.0 ]
+	LowerButton2		FXParam 7 "Bypass" [ 0.0 1.0 ]
+	InvertFB+LowerButton1	FXParam 8 "Bypass" [ 0.0 1.0 ]
+	/ FXParam 9 "Wet"
+ZoneEnd

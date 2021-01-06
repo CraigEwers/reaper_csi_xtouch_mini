@@ -1,0 +1,10 @@
+Zone "VST3: Vocal Doubler (iZotope, Inc.)"
+	SelectedTrackNavigator
+	FXParam 0 "Amount"
+	FXParam 1 "Separation"
+	FXParam 2 "Variation"
+	FXParam 3 "Bypass"
+	FXParam 4 "Effect-Only"
+	FXParam 5 "Bypass"
+	FXParam 6 "Wet"
+ZoneEnd

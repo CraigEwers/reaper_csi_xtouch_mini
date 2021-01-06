@@ -1,0 +1,11 @@
+Zone "VST: ReaComp (Cockos)" "ReaComp"
+	FocusedFXNavigator
+	LayerA_Rotary1 FXParam "0" "Thresh"
+	LayerA_Rotary2 FXParam "4" "Pre-comp"
+	LayerA_Rotary3 FXParam "2" "Attack"
+	LayerA_Rotary4 FXParam "3" "Release"
+	LayerA_Rotary5 FXParam "1" "Ratio"
+	LayerA_Rotary6 FXParam "14" "Knee"
+	LayerA_Rotary7 FXParam "10" "Dry"
+	LayerA_Rotary8 FXParam "11" "Wet"
+ZoneEnd

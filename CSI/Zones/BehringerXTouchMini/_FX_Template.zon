@@ -1,0 +1,103 @@
+////////////////////////////////////////////////////////////////////
+// Behringer X-Touch Mini
+// <<VST_name_goes_here>>
+//
+// by Craig Ewers
+// 19/12/2020
+////////////////////////////////////////////////////////////////////
+
+Zone <<Change_Zone_Name>>
+	FocusedFXNavigator
+
+
+////////////////////////////////////////////////////////////////////
+/ Unused Widgets
+
+	/ Rotaries
+	Rotary1						NoAction
+	Rotary2						NoAction
+	Rotary3						NoAction
+	Rotary4						NoAction
+	Rotary5						NoAction
+	Rotary6						NoAction
+	Rotary7						NoAction
+	Rotary8						NoAction
+
+	Shift+Rotary1				NoAction
+	Shift+Rotary2				NoAction
+	Shift+Rotary3				NoAction
+	Shift+Rotary4				NoAction
+	Shift+Rotary5				NoAction
+	Shift+Rotary6				NoAction
+	Shift+Rotary7				NoAction
+	Shift+Rotary8				NoAction
+
+	Option+Rotary1				NoAction
+	Option+Rotary2				NoAction
+	Option+Rotary3				NoAction
+	Option+Rotary4				NoAction
+	Option+Rotary5				NoAction
+	Option+Rotary6				NoAction
+	Option+Rotary7				NoAction
+	Option+Rotary8				NoAction
+
+	/ Buttons
+	UpperButton1				NoAction
+	UpperButton2				NoAction
+	UpperButton3				NoAction
+	UpperButton4				NoAction
+	UpperButton5				NoAction
+	UpperButton6				NoAction
+	UpperButton7				NoAction
+	UpperButton8				NoAction
+
+	Shift+UpperButton1			NoAction
+	Shift+UpperButton2			NoAction
+	Shift+UpperButton3			NoAction
+	Shift+UpperButton4			NoAction
+	Shift+UpperButton5			NoAction
+	Shift+UpperButton6			NoAction
+	Shift+UpperButton7			NoAction
+	Shift+UpperButton8			NoAction
+
+	Option+UpperButton1			NoAction
+	Option+UpperButton2			NoAction
+	Option+UpperButton3			NoAction
+	Option+UpperButton4			NoAction
+	Option+UpperButton5			NoAction
+	Option+UpperButton6			NoAction
+	Option+UpperButton7			NoAction
+	Option+UpperButton8			NoAction
+
+	LowerButton1				NoAction
+	LowerButton2				NoAction
+	LowerButton3				NoAction
+	LowerButton4				NoAction
+	LowerButton5				NoAction
+	LowerButton6				NoAction
+	LowerButton7				NoAction
+	LowerButton8				NoAction
+
+	Shift+LowerButton1			NoAction
+	Shift+LowerButton2			NoAction
+	Shift+LowerButton3			NoAction
+	Shift+LowerButton4			NoAction
+	Shift+LowerButton5			NoAction
+	Shift+LowerButton6			NoAction
+	Shift+LowerButton7			NoAction
+	Shift+LowerButton8			NoAction
+
+	Option+LowerButton1			NoAction
+	Option+LowerButton2			NoAction
+	Option+LowerButton3			NoAction
+	Option+LowerButton4			NoAction
+	Option+LowerButton5			NoAction
+	Option+LowerButton6			NoAction
+	Option+LowerButton7			NoAction
+	Option+LowerButton8			NoAction
+
+	/ Fader
+	Fader						NoAction
+	Shift+Fader					NoAction
+	Option+Fader				NoAction
+ZoneEnd

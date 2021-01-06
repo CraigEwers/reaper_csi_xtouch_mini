@@ -1,0 +1,12 @@
+Zone "VST3: bx_solo (Plugin Alliance)"
+	SelectedTrackNavigator
+	FXParam 0 "L <-> R"
+	FXParam 1 "Solo L"
+	FXParam 2 "Solo R"
+	FXParam 3 "Solo M"
+	FXParam 4 "Solo S"
+	FXParam 5 "Stereo Width"
+	FXParam 6 "Bypass"
+	FXParam 7 "Bypass"
+	FXParam 8 "Wet"
+ZoneEnd

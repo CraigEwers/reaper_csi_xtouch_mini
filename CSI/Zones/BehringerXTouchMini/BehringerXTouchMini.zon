@@ -1,0 +1,41 @@
+Zone Home
+	OnFXFocus				MapFocusedFXToWidgets
+	//OnTrackSelection		GoZone Home
+	IncludedZones
+		"Modifier_Buttons"
+		"Channel"		
+		"Buttons"
+		"MasterChannel"
+	IncludedZonesEnd
+ZoneEnd
+
+Zone "Channel"
+	TrackNavigator
+	Rotary|					TrackVolume
+	RotaryPress|			MapSelectedTrackFXToWidgets
+	Shift+Rotary|			MCUTrackPan
+	UpperButton|			TrackRecordArm
+	Shift+UpperButton|		TrackMute
+	Option+LowerButton|		TrackSolo
+ZoneEnd
+
+Zone "Buttons"
+	LowerButton1			TrackBank "-8"
+	LowerButton2			TrackBank "8"
+	LowerButton3			Reaper "40172"
+	LowerButton4			Reaper "40173"
+	LowerButton5			CycleTimeline
+	LowerButton6			Stop
+	LowerButton7			Play
+	LowerButton8			Record
+ZoneEnd
+
+Zone "Modifier_Buttons"
+	UpperButtonA			Shift
+	LowerButtonB			Option
+ZoneEnd
+
+Zone "MasterChannel"
+	MasterTrackNavigator
+	Fader					TrackVolume
+ZoneEnd

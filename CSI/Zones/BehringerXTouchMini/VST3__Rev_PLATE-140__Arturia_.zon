@@ -1,0 +1,103 @@
+////////////////////////////////////////////////////////////////////
+// Behringer X-Touch Mini
+// Arturia Rev PLATE-140 Reverb
+//
+// by Craig Ewers
+// 19/12/2020
+////////////////////////////////////////////////////////////////////
+
+Zone "VST3: Rev PLATE-140 (Arturia)"
+	FocusedFXNavigator
+	
+	/ Main
+	InvertFB+LowerButton1			FXParam 0 "On/Off"				[ 0.0 1.0 ]
+	Rotary1							FXParam 1 "Drive"
+	Rotary2							FXParam 2 "Plate Model"			[ 0.0 0.50 1.0 ]
+	Rotary3							FXParam 3 "Decay Time"
+	Rotary4							FXParam 5 "Blend Dry/wet"
+	Rotary5							FXParam 4 "Width"
+	LowerButton3					FXParam 28 "Previous Preset"
+	LowerButton4					FXParam 29 "Next Preset"
+	InvertFB+Shift+LowerButton1		FXParam 2162 "Bypass"			[ 0.0 1.0 ]
+
+	/ Extended View
+	Shift+Rotary1					FXParam 6 "Pre Delay"
+	Shift+Rotary2					FXParam 7 "HP Filter"
+	Shift+UpperButton3				FXParam 8 "Modulation"			[ 0.0 1.0 ]
+	Shift+Rotary3					FXParam 9 "Pre/Post Modulation"	[ 0.0 1.0 ]
+	Shift+Rotary4					FXParam 10 "Modulation amount"	
+	Shift+Rotary5					FXParam 13 "Low Shelf Gain"
+	Shift+Rotary6					FXParam 11 "Low Shelf Freq"
+	Shift+Rotary7					FXParam 12 "High Shelf Freq"
+	Shift+Rotary8					FXParam 14 "High Shelf Gain"
+	Shift+UpperButton6				FXParam 15 "Post EQ On/Off"		[ 0.0 1.0 ]
+
+////////////////////////////////////////////////////////////////////
+/ Unused Widgets
+
+	Rotary6							NoAction
+	Rotary7							NoAction
+	Rotary8							NoAction
+
+	Option+Rotary1     		   		NoAction
+	Option+Rotary2         	 		NoAction
+	Option+Rotary3          		NoAction	
+	Option+Rotary4          		NoAction
+	Option+Rotary5         			NoAction
+	Option+Rotary6          		NoAction
+	Option+Rotary7          		NoAction	
+	Option+Rotary8          		NoAction
+
+	UpperButton1					NoAction
+	UpperButton2					NoAction
+	UpperButton3					NoAction
+	UpperButton4					NoAction
+	UpperButton5					NoAction
+	UpperButton6					NoAction
+	UpperButton7					NoAction
+	UpperButton8					NoAction
+
+	Shift+UpperButton1 				NoAction
+	Shift+UpperButton2 				NoAction
+	Shift+UpperButton4 				NoAction
+	Shift+UpperButton5 				NoAction
+	Shift+UpperButton7 				NoAction
+	Shift+UpperButton8 				NoAction
+
+	Option+UpperButton1 			NoAction
+	Option+UpperButton2 			NoAction
+	Option+UpperButton3 			NoAction
+	Option+UpperButton4 			NoAction
+	Option+UpperButton5 			NoAction
+	Option+UpperButton6 			NoAction
+	Option+UpperButton7 			NoAction
+	Option+UpperButton8 			NoAction
+
+	LowerButton1					NoAction
+	LowerButton2					NoAction
+	LowerButton5					NoAction
+	LowerButton6					NoAction
+	LowerButton7					NoAction
+	LowerButton8					NoAction
+
+	Shift+LowerButton2  			NoAction
+	Shift+LowerButton3	    		NoAction
+	Shift+LowerButton4  			NoAction
+	Shift+LowerButton5  			NoAction
+	Shift+LowerButton6  			NoAction
+	Shift+LowerButton7  			NoAction
+	Shift+LowerButton8  			NoAction
+
+	Option+LowerButton1	    		NoAction
+	Option+LowerButton2	    		NoAction
+	Option+LowerButton3	    		NoAction
+	Option+LowerButton4	    		NoAction
+	Option+LowerButton5	    		NoAction
+	Option+LowerButton6	    		NoAction
+	Option+LowerButton7	    		NoAction
+	Option+LowerButton8	    		NoAction
+
+	Fader                   		NoAction
+    Shift+Fader             		NoAction
+    Option+Fader            		NoAction
+ZoneEnd

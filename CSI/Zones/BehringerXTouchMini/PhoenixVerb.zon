@@ -1,0 +1,126 @@
+////////////////////////////////////////////////////////////////////
+// Behringer X-Touch Mini
+// Exponential Audio PhoebixVerb
+//
+// by Craig Ewers
+// 19/12/2020
+////////////////////////////////////////////////////////////////////
+
+Zone "VST3: PhoenixVerb (Exponential Audio)"
+	FocusedFXNavigator
+	//Main Window
+	Rotary1							FXParam 17 "EarlyLvl"
+	Rotary2							FXParam 18 "RvbLevel"
+	Rotary3							FXParam 21 "Out Freq"
+	Rotary4							FXParam 0 "Mix"
+	Rotary5							FXParam 4 "Predelay"
+	Rotary6							FXParam 12 "Rvb Time"
+	UpperButton1					FXParam 20 "FiltType"	[ 0.0 0.34 0.67 1.0 ]
+	UpperButton2					FXParam 22 "Zoom"		[ 0.0 1.0 ]
+	UpperButton3					NoAction
+	UpperButton4					NoAction
+	UpperButton5					NoAction
+	UpperButton6					NoAction
+	UpperButton7					NoAction
+	UpperButton8					NoAction
+	InvertFB+LowerButton1			FXParam 23 "Bypass"		[ 0.0 1.0 ]
+	InvertFB+Shift+LowerButton1 	FXParam 2104 "Bypass"	[ 0.0 1.0 ]
+	Shift+Option+Rotary1			FXParam 2105 "Wet"
+
+	// Unmapped items below
+
+	// Reverb Attack Sub-Page
+	/ FXParam 1 "Diffusn"
+	/ FXParam 2 "RevbType"
+	/ FXParam 3 "DiffSize"
+	/ FXParam 8 "EnvAttak"
+	/ FXParam 9 "EnvpTime"
+	/ FXParam 10 "EnvlSlop"
+
+	// Reverb Tail Sub-Page
+	/ FXParam 11 "Rvb Size"
+	/ FXParam 13 "Xover Fc"
+	/ FXParam 14 "LoMidBln"
+	/ FXParam 15 "Damp Fc"
+	/ FXParam 16 "Damp X"
+	/ FXParam 19 "Width"
+
+	// Early Sub-page
+	/ FXParam 5 "E Attack"
+	/ FXParam 6 "ErlyTime"
+	/ FXParam 7 "ErlySlop"
+
+////////////////////////////////////////////////////////////////////
+/ Unused Widgets
+
+	/ Rotaries
+	Rotary7						NoAction
+	Rotary8						NoAction
+
+	Shift+Rotary1				NoAction
+	Shift+Rotary2				NoAction
+	Shift+Rotary3				NoAction
+	Shift+Rotary4				NoAction
+	Shift+Rotary5				NoAction
+	Shift+Rotary6				NoAction
+	Shift+Rotary7				NoAction
+	Shift+Rotary8				NoAction
+
+	Option+Rotary1				NoAction
+	Option+Rotary2				NoAction
+	Option+Rotary3				NoAction
+	Option+Rotary4				NoAction
+	Option+Rotary5				NoAction
+	Option+Rotary6				NoAction
+	Option+Rotary7				NoAction
+	Option+Rotary8				NoAction
+
+	/ Buttons
+	Shift+UpperButton1			NoAction
+	Shift+UpperButton2			NoAction
+	Shift+UpperButton3			NoAction
+	Shift+UpperButton4			NoAction
+	Shift+UpperButton5			NoAction
+	Shift+UpperButton6			NoAction
+	Shift+UpperButton7			NoAction
+	Shift+UpperButton8			NoAction
+
+	Option+UpperButton1			NoAction
+	Option+UpperButton2			NoAction
+	Option+UpperButton3			NoAction
+	Option+UpperButton4			NoAction
+	Option+UpperButton5			NoAction
+	Option+UpperButton6			NoAction
+	Option+UpperButton7			NoAction
+	Option+UpperButton8			NoAction
+
+	LowerButton2				NoAction
+	LowerButton3				NoAction
+	LowerButton4				NoAction
+	LowerButton5				NoAction
+	LowerButton6				NoAction
+	LowerButton7				NoAction
+	LowerButton8				NoAction
+
+	Shift+LowerButton2			NoAction
+	Shift+LowerButton3			NoAction
+	Shift+LowerButton4			NoAction
+	Shift+LowerButton5			NoAction
+	Shift+LowerButton6			NoAction
+	Shift+LowerButton7			NoAction
+	Shift+LowerButton8			NoAction
+
+	Option+LowerButton1			NoAction
+	Option+LowerButton2			NoAction
+	Option+LowerButton3			NoAction
+	Option+LowerButton4			NoAction
+	Option+LowerButton5			NoAction
+	Option+LowerButton6			NoAction
+	Option+LowerButton7			NoAction
+	Option+LowerButton8			NoAction
+
+	/ Fader
+	Fader						NoAction
+	Shift+Fader					NoAction
+	Option+Fader				NoAction
+ZoneEnd

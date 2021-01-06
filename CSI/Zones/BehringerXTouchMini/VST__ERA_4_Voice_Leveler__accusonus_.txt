@@ -1,0 +1,11 @@
+Zone "VST: ERA 4 Voice Leveler (accusonus)"
+	SelectedTrackNavigator
+	FXParam 0 "Processing"
+	FXParam 1 "Output Gain"
+	FXParam 2 "On/Off"
+	FXParam 3 "Mode"
+	FXParam 4 "Emphasis"
+	FXParam 5 "Breath Control"
+	FXParam 6 "Bypass"
+	FXParam 7 "Wet"
+ZoneEnd

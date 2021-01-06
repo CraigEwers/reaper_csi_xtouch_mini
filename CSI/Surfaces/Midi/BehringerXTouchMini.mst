@@ -1,4 +1,9 @@
-// X-Touch Mini
+////////////////////////////////////////////////////////////////////
+// Behringer X-Touch Mini
+//
+// by Craig Ewers
+// 12/12/2020
+//
 // Ensure X-Touch Mini is configured in MC mode
 //
 // Layout:
@@ -9,6 +14,7 @@
 //   Master Fader   (FD 1)
 //   Upper Button A	(Layer A Button)
 //   Lower Button B	(Layer B Button)
+////////////////////////////////////////////////////////////////////
 
 Widget RotaryPush1
 	Press 90 20 7f 90 20 00
