@@ -62,6 +62,15 @@ Zone "VST: TAL Reverb 4 Plugin (TAL-Togu Audio Line)" "TalReverb4"
 	Option+UpperButton7			NoAction
 	Option+UpperButton8			NoAction
 
+	Shift+Option+UpperButton1	NoAction
+	Shift+Option+UpperButton2	NoAction
+	Shift+Option+UpperButton3	NoAction
+	Shift+Option+UpperButton4	NoAction
+	Shift+Option+UpperButton5	NoAction
+	Shift+Option+UpperButton6	NoAction
+	Shift+Option+UpperButton7	NoAction
+	Shift+Option+UpperButton8	NoAction
+
 	LowerButton2				NoAction
 	LowerButton3				NoAction
 	LowerButton4				NoAction
@@ -86,4 +95,13 @@ Zone "VST: TAL Reverb 4 Plugin (TAL-Togu Audio Line)" "TalReverb4"
 	Option+LowerButton6			NoAction
 	Option+LowerButton7			NoAction
 	Option+LowerButton8			NoAction
+
+	Shift+Option+LowerButton1			NoAction
+	Shift+Option+LowerButton2			NoAction
+	Shift+Option+LowerButton3			NoAction
+	Shift+Option+LowerButton4			NoAction
+	Shift+Option+LowerButton5			NoAction
+	Shift+Option+LowerButton6			NoAction
+	Shift+Option+LowerButton7			NoAction
+	Shift+Option+LowerButton8			NoAction
 ZoneEnd

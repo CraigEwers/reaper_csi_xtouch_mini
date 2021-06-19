@@ -104,7 +104,7 @@ WidgetEnd
 Widget UpperButton2
 	Press 90 5a 7f 90 5a 00
 	FB_TwoState 90 5a 7f 90 5a 00
- WidgetEnd
+WidgetEnd
 
 Widget UpperButton3
 	Press 90 28 7f 90 28 00
