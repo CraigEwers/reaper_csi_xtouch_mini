@@ -1,0 +1,9 @@
+Zone Home
+	/OnFXFocus				MapFocusedFXToWidgets
+	IncludedZones
+		"Modifiers"
+		"Channel"	
+		"Buttons"
+		"MasterChannel"
+	IncludedZonesEnd
+ZoneEnd

@@ -1,39 +1,3 @@
-Zone Home
-	/OnFXFocus				MapFocusedFXToWidgets
-	IncludedZones
-		"Modifiers"
-		"Channel"	
-		"Buttons"
-		"MasterChannel"
-	IncludedZonesEnd
-ZoneEnd
-
-Zone "Channel"
-	TrackNavigator
-	
-	Rotary|							TrackVolume
-	RotaryPush|						TrackVolume [ 0.715 ] 	// Reset Track Volume to 0dB
-	UpperButton|					TrackRecordArm
-
-	// Shift Modifier
-	Shift+Rotary|					TrackPan "0"
-	Shift+RotaryPush|				TrackPan [ 0.5 ] 		// Reset Track Pan to Center
-	Shift+UpperButton|				TrackMute
-
-	// Option Modifier
-	Option+Rotary|					NoAction
-	Option+RotaryPush|				TrackUniqueSelect
-	Option+RotaryPush|				Reaper "_S&M_TOGLFXCHAIN" //Show FX Window for Selected Track
-	Option+UpperButton|				TrackSolo
-
-	// Shift + Option Modifiers
-	Shift+Option+Rotary|			NoAction
-	Shift+Option+RotaryPush|		NoAction
-	Shift+Option+UpperButton|		TrackUniqueSelect
-	Shift+Option+UpperButton|		Reaper "41665" 			// Mixer Show or hide children of selected tracks
-
-ZoneEnd
-
 Zone "Buttons"
 	LowerButton1					TrackBank "-8"
 	LowerButton2					TrackBank "8"
@@ -73,14 +37,4 @@ Zone "Buttons"
 	Shift+Option+LowerButton6		NoAction
 	Shift+Option+LowerButton7		NoAction
 	Shift+Option+LowerButton8		NoAction
-ZoneEnd
-
-Zone "Modifiers"
-	UpperButtonA					Shift
-	LowerButtonB					Option
-ZoneEnd
-
-Zone "MasterChannel"
-	MasterTrackNavigator
-	Fader							TrackVolume
 ZoneEnd

@@ -1,0 +1,4 @@
+Zone "Modifiers"
+	UpperButtonA					Shift
+	LowerButtonB					Option
+ZoneEnd
