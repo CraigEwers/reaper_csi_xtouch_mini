@@ -1,0 +1,113 @@
+////////////////////////////////////////////////////////////////////
+// Behringer X-Touch Mini
+// TAL Reverb 4
+//
+// by Craig Ewers
+// 19/12/2020
+////////////////////////////////////////////////////////////////////
+
+Zone "VST: TAL Reverb 4 Plugin (TAL-Togu Audio Line)"
+	FocusedFXNavigator
+
+	/ Main
+	Rotary1						FXParam 4 "Size"
+	Rotary2						FXParam 9 "Diffuse"
+	Rotary3						FXParam 3 "Delay"
+
+	/ Modulation	
+	Rotary4						FXParam 7 "Modulation Rate"
+	Rotary5						FXParam 8 "Modulation Depth"
+
+	/ EQ
+	Rotary6						FXParam 6 "Low Cut"
+	Rotary7						FXParam 5 "High Cut"
+	
+	/ Volume	
+	Rotary8						FXParam 2 "Dry"
+	Shift+Rotary8				FXParam 1 "Wet"
+	
+	/ General
+	LowerButton1				FXParam 0 "On / Off" [ 0.0 1.0 ]
+	InvertFB+Shift+LowerButton1 FXParam 10 "Bypass" [ 0.0 1.0 ]
+	Shift+Option+Rotary1		FXParam 11 "Wet"
+
+	Option+Rotary1				Reaper "_S&M_TOGLFLOATFXEL"
+	Option+Rotary1				UnMapFocusedFXFromWidgets
+	Option+Rotary1				GoZone Home
+
+
+
+////////////////////////////////////////////////////////////////////
+/ Unused Widgets
+
+	/ Buttons
+	UpperButton1				NoAction
+	UpperButton2				NoAction
+	UpperButton3				NoAction
+	UpperButton4				NoAction
+	UpperButton5				NoAction
+	UpperButton6				NoAction
+	UpperButton7				NoAction
+	UpperButton8				NoAction
+
+	Shift+UpperButton1			NoAction
+	Shift+UpperButton2			NoAction
+	Shift+UpperButton3			NoAction
+	Shift+UpperButton4			NoAction
+	Shift+UpperButton5			NoAction
+	Shift+UpperButton6			NoAction
+	Shift+UpperButton7			NoAction
+	Shift+UpperButton8			NoAction
+
+	Option+UpperButton1			NoAction
+	Option+UpperButton2			NoAction
+	Option+UpperButton3			NoAction
+	Option+UpperButton4			NoAction
+	Option+UpperButton5			NoAction
+	Option+UpperButton6			NoAction
+	Option+UpperButton7			NoAction
+	Option+UpperButton8			NoAction
+
+	Shift+Option+UpperButton1	NoAction
+	Shift+Option+UpperButton2	NoAction
+	Shift+Option+UpperButton3	NoAction
+	Shift+Option+UpperButton4	NoAction
+	Shift+Option+UpperButton5	NoAction
+	Shift+Option+UpperButton6	NoAction
+	Shift+Option+UpperButton7	NoAction
+	Shift+Option+UpperButton8	NoAction
+
+	LowerButton2				NoAction
+	LowerButton3				NoAction
+	LowerButton4				NoAction
+	LowerButton5				NoAction
+	LowerButton6				NoAction
+	LowerButton7				NoAction
+	LowerButton8				NoAction
+
+	Shift+LowerButton2			NoAction
+	Shift+LowerButton3			NoAction
+	Shift+LowerButton4			NoAction
+	Shift+LowerButton5			NoAction
+	Shift+LowerButton6			NoAction
+	Shift+LowerButton7			NoAction
+	Shift+LowerButton8			NoAction
+
+	Option+LowerButton1			NoAction
+	Option+LowerButton2			NoAction
+	Option+LowerButton3			NoAction
+	Option+LowerButton4			NoAction
+	Option+LowerButton5			NoAction
+	Option+LowerButton6			NoAction
+	Option+LowerButton7			NoAction
+	/Option+LowerButton8			NoAction
+
+	Shift+Option+LowerButton1			NoAction
+	Shift+Option+LowerButton2			NoAction
+	Shift+Option+LowerButton3			NoAction
+	Shift+Option+LowerButton4			NoAction
+	Shift+Option+LowerButton5			NoAction
+	Shift+Option+LowerButton6			NoAction
+	Shift+Option+LowerButton7			NoAction
+	Shift+Option+LowerButton8			NoAction
+ZoneEnd

@@ -1,8 +1,10 @@
 Zone "Buttons"
 	LowerButton1					TrackBank "-8"
 	LowerButton2					TrackBank "8"
-	LowerButton3					Reaper "40172" 		// Markers Go to previous marker or project start
-	LowerButton4					Reaper "40173" 		// Markers Go to next marker or project end
+	LowerButton3					Reaper "40172"		// Markers Go to previous marker or project start
+	Property+LowerButton3			NoFeedback			// Turns off feedback
+	LowerButton4					Reaper "40173"		// Markers Go to next marker or project end
+	Property+LowerButton4			NoFeedback			// Turns off feedback
 	LowerButton5					CycleTimeline
 	LowerButton6					Stop
 	LowerButton7					Play

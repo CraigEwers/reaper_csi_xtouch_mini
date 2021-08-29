@@ -13,8 +13,12 @@ Zone "Channel"
 	// Option Modifier
 	Option+Rotary|					NoAction
 	Option+RotaryPush|				TrackUniqueSelect
-	Option+RotaryPush|				Reaper "_S&M_TOGLFXCHAIN" //Show FX Window for Selected Track
+	Option+RotaryPush|				Reaper "_S&M_TOGLFLOATFXEL"
+	/Option+RotaryPush|				Reaper "_S&M_SELFX|"
+	/Option+RotaryPush|				GoFXSlot
+	OnFXFocus						MapFocusedFXToWidgets
 	Option+UpperButton|				TrackSolo
+
 
 	// Shift + Option Modifiers
 	Shift+Option+Rotary|			NoAction
